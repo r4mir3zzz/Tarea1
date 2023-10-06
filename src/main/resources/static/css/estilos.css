@@ -1,0 +1,140 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 90px 20px 0;
+    box-sizing: border-box;
+}
+
+.title-index{
+    color:ghostwhite;
+    font-family: cursive;
+}
+
+header{
+    position: fixed;
+    background-color: red;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+aside{
+    position: fixed;
+    padding: 5px;
+    background-color: black;
+    top: 90px;
+    left: 0;
+    width: 20%;
+    bottom: 20px;
+}
+
+section{
+    overflow-y: scroll;
+    padding: 5px;
+    position: fixed;
+    background-color: black;
+    top: 90px;
+    left: 20%;
+    width: 80%;
+    bottom: 20px;
+}
+
+footer{
+    position: fixed;
+    background-color: black;
+    color: white;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    bottom: 0;
+}
+
+.nav-link {
+    color:white;
+    text-decoration: none;
+    
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 90px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    transition: 0.5s;
+}
+
+.nav-menu-link:hover {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.resaltado {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+
+th {
+    background-color: white;
+    color: white;
+    
+}
+
+tr:nth-child(even) {
+    background-color: grey;
+    font-family: fantasy;
+    color: black;
+    
+}
+
+tr:nth-child(odd) {
+    background-color: grey;
+    font-family: fantasy;
+    color: black;
+    
+}
+
+p {
+    color: white;
+}
+
+figcaption {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+table{
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 10px; 
+    
+}
